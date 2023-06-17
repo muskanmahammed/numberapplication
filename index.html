@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: rgb(160, 245, 201);">
+    <center><div class="card">
+        <h1 style="color: yellow;">Number Guess Application</h1>
+        <h3 style="color: red;">Rule:</h3>
+        <p style="color: white;">Select a number between 1 to 100 and Guess it!!!</p>
+        <b style="color: white;">Guess a number:</b><input type="number" placeholder="enter a number"  id="n">
+        <br><br>
+        <div style="height:10%;width: fit-content;color: white;" id="result"></div>
+        <input type="submit" value="check" onclick="guess()"> 
+        <input type="submit" value="reset" onclick="window.location.reload()">
+    </div></center>
+    <script src="design.js"></script>
+</body>
+</html>
